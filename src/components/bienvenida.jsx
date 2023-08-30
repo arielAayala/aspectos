@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import style from "./bienvenida.module.css";
 
 function Bienvenida() {
 	const scrollToTemasDesarrollados = () => {
@@ -16,13 +17,16 @@ function Bienvenida() {
 	return (
 		<section
 			id="Bienvenida"
-			className="flex flex-col bg-center h-screen bg-cover bg-no-repeat bg-[url('https://blog.nuoplanet.com/hubfs/Blog/biometria_la_ultima_tecnologia.jpg')] bg-black bg-blend-soft-screen"
+			className={
+				"flex flex-col bg-center h-screen bg-cover bg-no-repeat  " +
+				style.Bienvenida
+			}
 		>
 			<div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-40">
-				<h1 className="mb-4 text-4xl  font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+				<h1 className="mb-4 text-5xl  font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
 					Computación y Sociedad
 				</h1>
-				<p className=" text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+				<p className=" text-xl font-semibold text-gray-300 lg:text-2xl sm:px-16 lg:px-48">
 					En este trabajo desarrollamos conceptos primordiales sobre el impacto
 					social de la informática en la sociedad, las nuevas tecnologías del
 					conocimiento y la computación.
