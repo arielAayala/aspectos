@@ -1,0 +1,6 @@
+.nuevas {
+	background-image: linear-gradient(to top, transparent, black),
+		url("https://cdn.diferenciador.com/imagenes/evolucion-del-hombre-og.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}

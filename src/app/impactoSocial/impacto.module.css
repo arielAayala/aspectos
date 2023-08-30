@@ -1,0 +1,6 @@
+.impacto {
+	background-image: linear-gradient(to top right, transparent 25%, black 70%),
+		url("https://www.eltiempo.com/uploads/2019/12/07/5dec47012d257.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}

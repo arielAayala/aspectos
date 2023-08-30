@@ -4,8 +4,10 @@ import Link from "next/link";
 function CarruselTemas() {
 	return (
 		<div className="flex flex-col h-screen">
-			<h2 className=" font-bold text-4xl p-10">Temas Desarrollados</h2>
-			<div className="flex flex-wrap p-10 justify-center">
+			<h2 className=" font-bold text-4xl lg:px-10 px-2 py-4">
+				Temas Desarrollados
+			</h2>
+			<div className="flex flex-wrap  justify-center">
 				<div className=" h-50 bg-white border m-2 my-5  border-gray-200 rounded-lg shadow max-w-sm ">
 					<img
 						className="rounded-t-lg"
@@ -15,7 +17,7 @@ function CarruselTemas() {
 
 					<div className="p-5">
 						<h5 className="mb-2 h-30 lg:h-20 text-2xl text-center font-bold tracking-tight text-gray-900 ">
-							Nuevas tecnologías en la sociedad del conocimiento
+							Evolución de la sociedad del conocimiento
 						</h5>
 
 						<p className=" h-40 font-normal text-gray-700 text-justify">
